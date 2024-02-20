@@ -18,8 +18,7 @@ etherman --name Peggy --source "$peggy_contract" -P "$deployer_pk" tx "$peggy_co
 sleep 15
 
 # Check balance of receiver 
-injectived query bank balances inj1vc4ahd5xznjgcqqqqqqqqqqqqqqqqqqqy80gzf --home /Users/hieuvu/Desktop/dev/Injective/peggo/test/cosmos/data/injective-333/n0
+injectived query bank balances inj1vc4ahd5xznjgcqqqqqqqqqqqqqqqqqqqy80gzf --home /Users/nhan/Documents/go-workspace/decentrio/peggo-decentrio/test/cosmos/data/injective-333
 
 # Check current outflow after send to inj
-injectived query ratelimit list-peggy-rate-limits --chain-id=injective-333 --home /Users/hieuvu/Documents/Decentrio/peggo-decentrio/test/cosmos/data/injective-333/n0
-
+injectived query ratelimit list-peggy-rate-limits --chain-id=injective-333 --home /Users/nhan/Documents/go-workspace/decentrio/peggo-decentrio/test/cosmos/data/injective-333/n0
